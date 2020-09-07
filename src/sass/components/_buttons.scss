@@ -1,0 +1,42 @@
+.btn {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    color: black;
+    display: inline-block;
+    letter-spacing: .1em;
+    font-weight: bold;
+    font-family: 'myriad-set-pro_bold';
+    
+}
+.btn:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+} 
+.btn__white {
+    border: 1px solid white;
+    color: white;
+}
+.btn__social {
+    text-decoration: none;
+    color: white;
+    // display: flex;
+    // flex-flow: row;
+    // border: 1px solid red;
+
+}
+.btn__blue {
+    background-color: $azul_fuerte;
+    color: white;
+    font-family: 'myriad-set-pro_bold';
+    
+    // text-transform: uppercase;
+}
+.btn__social--black {
+    @extend .btn__social;
+    color:black;
+}

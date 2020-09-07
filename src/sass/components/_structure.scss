@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 18px;
+    font-family: 'myriad-set-pro_thin';
+}
+p {
+    line-height: 1.5em;
+}
+.mt50 {
+    margin-top: 50px;
+}
+.section__container {
+    width: 100%;
+    padding-top: 2em;
+}
+.section__container--no-padding {
+    width: 100%;
+    padding-top: 0;
+}
+.section__container:nth-child(1) {
+    padding-top: 0;
+}
+.section__background {
+    width: 100%;
+}
+.section__content--full {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    // padding: 1em;
+}
+.section__content {
+    @extend .section__content--full;
+    max-width: 1200px;
+    // border: 1px solid red;
+}
+.section__grid {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.section__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    // width: 85%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.section__subtitle {
+
+}
+.img__responsive {
+    width: 100%;
+}
