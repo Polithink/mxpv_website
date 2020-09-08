@@ -1,0 +1,4 @@
+{
+    "apiUrlDev": "http://api.mexicoprevieneac.org/Api.php",
+    "apiUrlProd": "https://api.mexicoprevieneac.org/Api.php"
+}
