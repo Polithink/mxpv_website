@@ -1,7 +1,7 @@
 import urls from './urls.json'
 import swal from 'sweetalert';
 
-const pdf = 'http://mexicoprevieneac.org/wp-content/uploads/2017/11/sobrevivientesviales_version64_listofinalpg.pdf'
+const pdf = 'http://mexicoprevieneac.org/wp-content/uploads/2020/09/DesastresyResiliencia.pdf'
 
 const prod = urls.apiUrlProd
 const dev = urls.apiUrlDev
