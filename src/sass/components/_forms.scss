@@ -1,0 +1,41 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    
+    & > input {
+      flex: 1 1 10ch;
+      margin: .5rem;
+      
+      &[type="email"] {
+        flex: 3 1 30ch;
+      }
+    }
+  }
+  
+  input {
+    border: none;
+    background: rgba(121, 120, 120, .21);
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s all;
+    
+    
+    &[type="submit"] {
+      background: rgb(179, 77, 128);
+      color: white;
+    }
+  }
+  input:focus {
+    border: 1px solid $azul;
+    outline: tomato;
+    transform: scale(1.1);
+    transition: .3s all;
+    box-shadow: 0 0.75rem 3rem 0rem rgba(0, 0, 0, .46);
+  }
+  .input__container {
+    // border: 1px solid red;
+    width: 100%;
+    margin: 1,5em 0;
+}
