@@ -2,5 +2,9 @@
     .grid__description {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+    .description__item {
+        align-self: center;
     }
 }
